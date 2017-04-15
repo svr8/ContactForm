@@ -1,0 +1,221 @@
+body
+        {
+            margin: 0px;
+            overflow-x: hidden;
+            background: rgb(78,78,78);
+            
+            
+        }
+        .header
+        {
+            position: relative;
+            top:0px;
+            left:0px;
+            
+            padding-bottom:10%;
+            width: 100%;
+            background-color: black;
+            box-shadow: 0px 0px 17px black;       
+            z-index: -1;
+            text-align: center;
+        }
+       
+        img
+        {
+            margin: auto;
+            margin-top: 1%;
+           
+        }
+        .heading
+        {
+           font-size: 2em; 
+           text-align: center;  
+           padding: 7px;      
+            font-weight: lighter;
+        }
+    .questionsWrap
+{
+    padding: 20px 150px 20px 150px;
+    font-size: 1.2em;
+    font-weight: lighter;
+    
+}
+        .questions
+        {
+            
+            letter-spacing: 1px;
+            
+            background-color: white;
+            box-shadow: 0px 0px 12px black;
+            padding: 100px;
+            display: block;
+            font-family: font;
+            font-size: 15px;
+            font-weight: lighter;
+            margin: -5% 70px 0px 70px;
+         }
+         .questions input
+         {
+             padding: 0.5px;  
+             font-size: 1em;           
+             border: 0px solid transparent;
+             border-bottom: 1px solid black;
+         }
+        .questions
+        {
+        }
+        @font-face
+        {
+            font-family: font;
+            src: url('Cabin-Regular.ttf');
+        }
+        .submitBtn
+        {
+            margin: 60px 0px 20px 150px ;
+            padding: 15px;
+            background-color: #27CCC0;
+            color: white;
+            font-size: 35px;            
+            box-shadow: 0px 0px 5px black;  
+        }
+        .submitBtn:hover
+        {
+            box-shadow:none;
+            cursor: pointer;
+        }
+        .questions #set
+        {            
+            padding: 10px;
+            margin-left: 15px;            
+        }
+       
+        .questions textarea
+        {
+            position: inherit;
+            width: 80%;
+            margin-left: 15%;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+       
+      textarea[type="text"], input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  transition: border 0.3s;
+  
+}
+textarea[type="text"]:focus,
+textarea[type="text"].focus,
+input[type="text"]:focus,
+input[type="text"].focus {
+           
+  border-bottom: solid 2px #27CCC0;
+  outline:none;
+}
+#experience 
+{
+    margin-left: 0%;
+}
+.pref1com6, .pref2com6
+{
+    position: inherit;
+    margin-left: 6%;
+}
+.pref1com3 p, .pref2com3 p
+{
+    margin-left: 85px;
+}
+.status
+{
+    margin: 10px;    
+}
+.message
+{
+    position: fixed;
+    top: 20%;
+    left:30%;
+    z-index: 1;
+    width: 500px;
+    height: 300px;
+    
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;  
+}
+.msg
+{
+    position: absolute;
+    padding: 15px;
+    font-family: Arial;
+    margin: 10px;
+ }
+.closeBtn
+{
+    position: absolute;
+    bottom: 10px;
+    left: 39%;   
+    width: 100px;
+    height: 30px;
+    
+    background-color: #27CCC0;    
+    box-shadow: 0px 0px 5px black;   
+}
+.closeBtn:hover
+{
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.closeBtnTxt
+{
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    color: white;
+    font-family: Arial;
+}
+
+.footer
+{
+    position: relative;
+    top: -5%;
+    width: 100%;
+    height: 5%;    
+    display: block;  
+}
+
+
+@media only screen and (max-width: 1000px)
+{
+    body
+    {padding:0px;}
+    .questions
+    {padding:5px;
+    margin: 0px;
+    left:-5%;}
+    .questionsWrap
+    {padding:0px;}
+    img{margin-top: 5%;}
+    .heading
+    {
+        font-size: 1.5em;
+    }
+    .questions
+    {
+        font-size:7pt;
+        top: -12%;
+        left: 10%;
+        padding: 40px;
+    }
+    .message
+    {
+        top: 20%;
+        left:5%;
+        width: 90%;
+        height: 40%;
+    }
+    .submitBtn
+    {margin-left: 100px;}
+}
