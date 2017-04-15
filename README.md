@@ -13,3 +13,5 @@ File: backend.php --
 142: This portion of code is needed if the form needs to send auto-reply confirmation mail to the customer that the form had been submitted successfully.
 
 # Screenshots:
+![alt text](https://github.com/svr8/ContactForm/blob/master/Screenshots/1.PNG)
+![alt text](https://github.com/svr8/ContactForm/blob/master/Screenshots/2.PNG)
